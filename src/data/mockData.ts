@@ -104,3 +104,60 @@ export const weeklyReport: WeeklyReport = {
     'Finalize launch communication plan',
   ],
 };
+
+export const projectOverview = {
+  objective:
+    'Launch a redesigned public website and client portal that improves user experience, streamlines access to account resources, and supports a more efficient customer journey.',
+
+  businessProblem:
+    'The current website experience is outdated, difficult to navigate, and does not provide a centralized portal for clients to access important information or services.',
+
+  targetUsers: [
+    'Prospective customers evaluating services',
+    'Existing clients accessing account resources',
+    'Internal support teams assisting customers',
+  ],
+
+  inScope: [
+    'Public website redesign',
+    'Client portal login experience',
+    'Navigation and information architecture updates',
+    'QA testing and launch readiness tracking',
+  ],
+
+  outOfScope: [
+    'Backend platform replacement',
+    'CRM migration',
+    'Post-launch analytics expansion',
+  ],
+
+  stakeholders: [
+    {
+      name: 'Executive Sponsor',
+      role: 'Approves timeline, budget, and final launch readiness',
+    },
+    {
+      name: 'Design Team',
+      role: 'Owns wireframes, UI design, and experience improvements',
+    },
+    {
+      name: 'Engineering Team',
+      role: 'Builds website and client portal functionality',
+    },
+    {
+      name: 'QA Team',
+      role: 'Validates functionality, defects, and release quality',
+    },
+    {
+      name: 'Customer Support',
+      role: 'Provides feedback on usability and support needs',
+    },
+  ],
+
+  successMetrics: [
+    'Launch delivered on schedule',
+    'Reduction in navigation-related support requests',
+    'Improved client access to portal resources',
+    'Stakeholder approval of launch readiness',
+  ],
+};

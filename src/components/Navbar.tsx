@@ -5,6 +5,7 @@ export default function Navbar() {
     <nav className="navbar">
       <h1>ProjectOps Dashboard</h1>
       <div className="nav-links">
+        <NavLink to="/overview">Overview</NavLink>
         <NavLink to="/">Dashboard</NavLink>
         <NavLink to="/tasks">Tasks</NavLink>
         <NavLink to="/milestones">Milestones</NavLink>
