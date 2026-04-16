@@ -76,7 +76,8 @@ h2 {
 h1 {
   font-size: 56px;
   letter-spacing: -1.68px;
-  margin: 32px 0;
+  margin: 32px 0;  
+  color: #e5e7eb;
   @media (max-width: 1024px) {
     font-size: 36px;
     margin: 20px 0;
@@ -448,3 +449,27 @@ td {
   color: #64748b;
   font-size: 14px;
 }
+
+.risk-pill {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.risk-pill.high {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.risk-pill.medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.risk-pill.low {
+  background: #dcfce7;
+  color: #166534;
+}
+
