@@ -362,3 +362,65 @@ td {
   color: #6b7280;
   font-style: italic;
 }
+
+.milestone-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.milestone-item {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 16px;
+  align-items: start;
+  position: relative;
+}
+
+.milestone-marker {
+  width: 14px;
+  height: 14px;
+  background: #2563eb;
+  border-radius: 50%;
+  margin-top: 8px;
+  position: relative;
+}
+
+.milestone-marker::after {
+  content: '';
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: calc(100% + 28px);
+  background: #cbd5e1;
+}
+
+.milestone-item:last-child .milestone-marker::after {
+  display: none;
+}
+
+.milestone-content {
+  width: 100%;
+}
+
+.milestone-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.milestone-date {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.milestone-notes {
+  color: #334155;
+  line-height: 1.5;
+}
