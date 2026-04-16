@@ -424,3 +424,27 @@ td {
   color: #334155;
   line-height: 1.5;
 }
+
+.reports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.report-section h3 {
+  margin-bottom: 12px;
+}
+
+.report-section ul {
+  padding-left: 18px;
+}
+
+.report-section li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.report-meta {
+  color: #64748b;
+  font-size: 14px;
+}
